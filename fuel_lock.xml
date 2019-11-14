@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <TemplateURL></TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/gilbertand/docker-templates/master/fuel_lock.xml</TemplateURL>
   <Beta>True</Beta>
-  <Category>Downloaders: MediaApp:Video Status:Beta</Category>
-  <Date>2017-04-17</Date>
-  <Name>radarr</Name>
+  <Category>Other</Category>
+  <Date>2019-11-14</Date>
+  <Name>7-Eleven</Name>
   <Support>/</Support>
   <Project>https://github.com/freyta/7Eleven-Python</Project>
   <Repository>gilbertand/7eleven</Repository>
