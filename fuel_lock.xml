@@ -12,7 +12,7 @@
   <Tag></Tag>
   <TagDescription></TagDescription>
   </Branch>
-  <Registry>https://hub.docker.com/r/linuxserver/radarr/</Registry>
+  <Registry></Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Overview>7-Eleven Fuel Lock</Overview>
