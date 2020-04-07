@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/gilbertand/docker-templates/master/deCONZ.xml</TemplateURL>
+  <Beta>True</Beta>
+  <Category>Other</Category>
+  <Date>2020-04-07</Date>
+  <Name>deCONZ</Name>
+  <Support>/</Support>
+  <Project>https://github.com/marthoc/docker-deconz</Project>
+  <Repository>marthoc/deconz</Repository>
+  <Branch>
+  <Tag></Tag>
+  <TagDescription></TagDescription>
+  </Branch>
+  <Registry></Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>deCONZ by dresden elektronik</Overview>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <Icon></Icon>
+  <Description>7-Eleven Fuel Lock.&#xD;
+&#xD;
+[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+[b]5000[/b] : The web-interface. [br]</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>2080</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>20443</HostPort>
+        <ContainerPort>443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/root/.local/share/dresden-elektronik/deCONZ</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+   </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+    </Variable>
+  </Environment>
+<DonateText></DonateText>
+<DonateLink></DonateLink>
+<DonateImg></DonateImg>
+<BaseImage></BaseImage>
+</Container>
