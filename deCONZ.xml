@@ -46,6 +46,50 @@
    </Data>
   <Environment>
     <Variable>
+      <Value>80</Value>
+      <Name>DECONZ_WEB_PORT</Name>
+    </Variable>
+    <Variable>
+      <Value>443</Value>
+      <Name>DECONZ_WS_PORT</Name>
+    </Variable>
+    <Variable>
+      <Value>/dev/ttyUSB1</Value>
+      <Name>DECONZ_DEVICE</Name>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>DECONZ_VNC_MODE</Name>
+    </Variable>
+    <Variable>
+      <Value>changeme</Value>
+      <Name>DECONZ_VNC_PASSWORD</Name>
+    </Variable>
+    <Variable>
+      <Value>0</Value>
+      <Name>DECONZ_UPNP</Name>
+    </Variable>
+    <Variable>
+      <Value>1</Value>
+      <Name>DEBUG_INFO</Name>
+    </Variable>
+    <Variable>
+      <Value>0</Value>
+      <Name>DEBUG_APS</Name>
+    </Variable>
+    <Variable>
+      <Value>0</Value>
+      <Name>DEBUG_ZCL</Name>
+    </Variable>
+    <Variable>
+      <Value>0</Value>
+      <Name>DEBUG_ZDP</Name>
+    </Variable>
+    <Variable>
+      <Value>0</Value>
+      <Name>DEBUG_OTAU</Name>
+    </Variable>
+    <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
     </Variable>
