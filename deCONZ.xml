@@ -18,7 +18,7 @@
   <Overview>deCONZ by dresden elektronik</Overview>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <Icon></Icon>
-  <Description>7-Eleven Fuel Lock.&#xD;
+  <Description>deCONZ.&#xD;
 &#xD;
 [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
 [b]5000[/b] : The web-interface. [br]</Description>
