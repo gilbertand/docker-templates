@@ -46,7 +46,7 @@
    </Data>
   <Environment>
     <Variable>
-      <Value>80</Value>
+      <Value></Value>
       <Name>DECONZ_WEB_PORT</Name>
     </Variable>
     <Variable>
@@ -98,6 +98,21 @@
       <Name>PGID</Name>
     </Variable>
   </Environment>
+  <Config Name="http" Target="DECONZ_WEB_PORT" Default="" Mode="" Description="By default, the web UIs (Wireless Light Control and Phoscon) and the REST API listen on port 80; only set this environment variable if you wish to change the listen port." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="https" Target="DECONZ_WS_PORT" Default="" Mode="" Description="By default, the websockets service listens on port 443; only set this environment variable if you wish to change the listen port." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="debug info" Target="DEBUG_INFO" Default="1" Mode="" Description="Sets the level of the deCONZ command-line flag --dbg-info" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="degub aps" Target="DEBUG_APS" Default="0" Mode="" Description="Sets the level of the deCONZ command-line flag --dbg-aps" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="debug zcl" Target="DEBUG_ZCL" Default="0" Mode="" Description="Sets the level of the deCONZ command-line flag --dbg-zcl" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="debug zdp" Target="DEBUG_ZDP" Default="0" Mode="" Description="Sets the level of the deCONZ command-line flag --dbg-zdp" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="debug otau" Target="DEBUG_OTAU" Default="0" Mode="" Description="Sets the level of the deCONZ command-line flag --dbg-otau" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="deCONZ device" Target="DECONZ_DEVICE" Default="" Mode="" Description="By default, deCONZ searches for RaspBee at /dev/ttyAMA0 and Conbee at /dev/ttyUSB0; when using other USB devices (e.g. a Z-Wave stick) deCONZ may not find RaspBee/Conbee properly. Set this environment variable to the same string passed to --device to force deCONZ to use the specific USB device." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="VNC enable" Target="DECONZ_VNC_MODE" Default="" Mode="" Description="Set this option to enable VNC access to the container to view the deCONZ ZigBee mesh" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="VNC port" Target="DECONZ_VNC_PORT" Default="" Mode="" Description="Default port for VNC mode is 5900; this option can be used to change this port" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="VNC password" Target="DECONZ_VNC_PASSWORD" Default="" Mode="" Description="Default password for VNC mode is 'changeme'; this option can (should) be used to change the default password" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="UPNP" Target="DECONZ_UPNP" Default="" Mode="" Description="Set this option to 0 to disable uPNP, see: https://github.com/dresden-elektronik/deconz-rest-plugin/issues/274" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="" Target="" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="" Target="" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  
 <DonateText></DonateText>
 <DonateLink></DonateLink>
 <DonateImg></DonateImg>
